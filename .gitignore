@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+data/raw/
+data/cache/
+checkpoints/
+
+# Research data and generated artifacts stay local; keep the data dictionary.
+/data/*
+!/data/README.md
+/tmp/
+/.local/
+!.env.example
+
+# Model files and environment folders
+*.joblib
+*.pkl
+/venv/
+
