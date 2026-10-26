@@ -40,7 +40,7 @@ Alpha158 和研究协议参考 Qlib 思路，当前运行代码主要基于 pand
 
 | 顺序 | Notebook | 职责 | 主要输出 |
 | --- | --- | --- | --- |
-| 1 | [data_loader.ipynb](data_loader.ipynb) | 股票池、交易日历、基准和日线批量下载，包含缓存、重试及覆盖检查 | `data/raw/` |
+| 1 | [data_loader.ipynb](data_loader.ipynb) | 当前为数据接口连接及示例调用，需配合批量下载流程准备原始数据 | `data/raw/` |
 | 2 | [feature.ipynb](feature.ipynb) | 输入覆盖检查、异常行隔离、复权研究价格、Alpha158 和辅助标签 | `data/processed/alpha158/` |
 | 3 | [labels&process.ipynb](labels%26process.ipynb) | 标签可用性、时间切分、训练期预处理拟合及模型数据输出 | `data/processed/model_dataset/` |
 | 4 | [factors_select.ipynb](factors_select.ipynb) | 逐日 IC/RankIC、覆盖率、稳定性、相关性去冗余与训练期筛选 | `data/processed/factor_selection/` |
@@ -56,9 +56,6 @@ Alpha158 和研究协议参考 Qlib 思路，当前运行代码主要基于 pand
 ```text
 multi-model-bactest/
 ├── README.md
-├── requirements.txt              # 已核验环境的直接依赖版本
-├── .gitignore / .gitattributes  # 数据忽略与 notebook 输出过滤
-├── scripts/notebook_clean.py    # Git 提交时清除输出，保留本地结果
 ├── data_loader.ipynb
 ├── feature.ipynb
 ├── labels&process.ipynb
@@ -89,7 +86,6 @@ multi-model-bactest/
 │       │   ├── pilot/
 │       │   └── benchmark/
 │       └── results/
-├── .local/                      # 本地接口配置，不上传
 └── tmp/                         # 本地临时文件，不作为正式产物
 ```
 
@@ -105,7 +101,7 @@ multi-model-bactest/
 conda create -n factor_research python=3.11 -y
 conda activate factor_research
 
-python -m pip install -r requirements.txt
+python -m pip install numpy pandas scipy pyarrow matplotlib scikit-learn xgboost lightgbm cloudpickle threadpoolctl tushare ipykernel jupyterlab
 
 python -m ipykernel install --user --name factor_research --display-name "Python (factor_research)"
 ```
@@ -116,7 +112,7 @@ python -m ipykernel install --user --name factor_research --display-name "Python
 jupyter lab
 ```
 
-打开 notebook 后选择 `Python (factor_research)` 内核。`requirements.txt` 固定了已核验环境的直接依赖版本；它不包含所有间接依赖，也不是跨平台的完整锁文件。当前尚无统一命令行入口，各 notebook 为运行入口。
+打开 notebook 后选择 `Python (factor_research)` 内核。项目当前还没有独立的 `requirements.txt`、`environment.yml` 或统一命令行入口，上面的安装命令用于建立环境，并非精确版本锁文件。
 
 ### 当前核验环境
 
@@ -151,11 +147,11 @@ jupyter lab
 - 股票信息中的下载状态和当前简称不能代替每日历史 ST、停复牌或退市状态。
 - 合并版和分年版基准文件可能同时存在，不能直接拼接后重复计算日期。
 
-当前 `data_loader.ipynb` 已包含股票池、交易日历、分年基准和逐日行情下载，以及缓存、重试、覆盖检查。运行前需配置有相应权限的接口凭据，并核实服务地址和数据来源；下载可能受到接口频率及配额限制。原始数据未随 Git 仓库上传，需要自行下载或准备符合上述结构的数据。
+当前 `data_loader.ipynb` 包含接口初始化、一个示例查询，以及自定义服务地址配置。它不是完整的全市场批量下载入口；完整下载流程尚未以独立脚本随项目交付。复现前需要自行准备符合上述结构的数据，并核实接口权限、服务地址和数据来源。只有代码仓库不能直接重建全部现有数据。
 
 ### 凭据管理
 
-下载 notebook 已改为优先读取环境变量，也支持被 Git 忽略的 `.local/data_source.json`。环境变量方式的核心用法为：
+上传仓库前，将 notebook 中写死的真实 Token 改为本地配置，并清除包含凭据的单元格输出。例如把原 Token 赋值替换为：
 
 ```python
 import os
@@ -163,13 +159,13 @@ import os
 TOKEN = os.environ["TUSHARE_TOKEN"]
 ```
 
-读取的是当前进程环境变量，不会自动加载 `.env`；`.env.example` 仅为变量名参考。`TUSHARE_API_URL` 可选，未配置时使用已安装 SDK 的默认地址。也可以在 `.local/data_source.json` 配置 `tushare_token` 和可选的 `tushare_api_url`，该目录不会上传。不要将真实 Token 写进 README、notebook 源码或 Git 提交。
+这里读取的是当前进程的环境变量，不会自动加载 `.env`。不要将真实 Token 写进 README、notebook 输出或 Git 提交。私有仓库同样不应保存凭据。
 
 ## 6. 两种运行方式
 
 ### 6.1 从原始数据开始构建
 
-1. 配置本地接口凭据，从头运行 `data_loader.ipynb` 准备股票池、交易日历、日线、复权因子及基准数据，再核对数据字典和覆盖报告；也可自行提供相同结构的数据。
+1. 先准备股票池、交易日历、日线、复权因子及基准数据，核对数据字典和覆盖报告。
 2. 检查各 notebook 顶部的项目路径。当前代码含本地绝对路径，移动项目后需要统一调整；从项目根目录启动 Jupyter 有助于减少路径混淆。
 3. 依次运行 `feature.ipynb`、`labels&process.ipynb`、`factors_select.ipynb`。
 4. 在 `model.ipynb` 中训练六模型，并检查验证与调参报告。验证期用于选择参数，不是最终无偏测试。
@@ -314,7 +310,7 @@ data/processed/results/run_.../
 | 公平对照 | 已有现金与沪深300价格指数；同股票池等权、动量及随机排名的同引擎产物尚未提供 |
 | 归因范围 | 已完成个股与费用账本分解；尚无历史行业和风格暴露归因 |
 | 最终评价 | 2025 年已用于开发，尚未完成冻结方案后的新未见区间评价 |
-| 工程复现 | 当前以 notebook 为入口，仍有绝对路径；尚无统一 CLI、集中配置和完整的跨平台依赖锁文件 |
+| 工程复现 | 当前以 notebook 为入口，仍有绝对路径，完整批量下载入口和依赖锁文件待补充 |
 
 截至 2026-10-26，已有的运行验收包括：28 项回测账本与边界检查；结果模块 36 项源指标复算、6 项归因手工案例，以及六模型逐日损益桥核对。它们验证对应代码路径和账本算术，不覆盖所有历史行情、交易状态及市场执行真实性。
 
@@ -348,7 +344,7 @@ data/processed/results/run_.../
 
 ## 13. Git 仓库提交建议
 
-提交 notebook 源码、Markdown、依赖文件和 Git 输出过滤脚本。原始数据、模型、生成报告、临时文件和本地接口配置留在本地。Git clean filter 会去掉提交副本中的输出和执行计数，本地 notebook 的输出仍保留。
+提交 notebook、Markdown 文档及未来补充的依赖文件；原始数据、模型、生成报告和临时文件保留在本地或另行归档。提交前检查 notebook 源码与输出中的凭据。
 
 若希望保留数据字典，可在根目录 `.gitignore` 中采用：
 
@@ -358,7 +354,6 @@ data/processed/results/run_.../
 !/data/README.md
 
 /tmp/
-/.local/
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
@@ -368,15 +363,6 @@ __pycache__/
 .venv/
 venv/
 ```
-
-克隆后如需在后续提交中继续保留本地输出、只上传源码，可在已激活的 Python 环境配置：
-
-```powershell
-git config --local filter.notebook-clean.clean "python scripts/notebook_clean.py"
-git config --local filter.notebook-clean.required true
-```
-
-过滤器只作用于 Git 提交副本，不会清空编辑器里的运行结果。现有本地仓库已配置该过滤器。
 
 如果已有 `/data/` 整目录忽略规则，应将它替换为上面的两行数据规则；仅增加 `!/data/README.md` 无法穿透被整体忽略的父目录。`.gitignore` 也不会自动移除已被 Git 跟踪的文件。
 
