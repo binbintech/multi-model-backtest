@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "created_utc": "20261024T125348Z",
+  "format": "parquet",
+  "target_name": "LABEL0",
+  "target_mode": "return",
+  "features": 158,
+  "views": [
+    "tree",
+    "linear"
+  ],
+  "fit_candidate_rows": 2033792,
+  "fit_rows": 100000,
+  "fit_method": "smallest_index_hash_train_sample",
+  "partitions": {
+    "tree": {
+      "train": 54,
+      "valid": 54,
+      "test": 54
+    },
+    "linear": {
+      "train": 54,
+      "valid": 54,
+      "test": 54
+    }
+  },
+  "source_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\alpha158\\run_20261024T123322Z_3e71525d",
+  "source_metadata_sha256": "a30cb675df46b9424c1089497805ee80f187007a1eed6e5b3068be66d2dc3f8c",
+  "pandas": "3.1.0",
+  "numpy": "2.4.6",
+  "notebook_sha256": "f6db1d46536a3fa8d9b087432a9b15a7fe69f187e2c1cf4effca829052a99f40",
+  "label_formula": "close[t+entry_lag+horizon] / close[t+entry_lag] - 1"
+}

@@ -1,0 +1,5 @@
+split,rows,feature_eligible,label_eligible,supervised_eligible,missing_labels,purged_labels
+train,2045432,2045432,2033792,2033792,1535,10105
+valid,1227933,1227933,1217014,1217014,760,10159
+test,1242601,1242601,1231144,1231144,11457,0
+outside,0,0,0,0,0,0
