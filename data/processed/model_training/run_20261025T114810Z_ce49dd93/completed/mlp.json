@@ -1,0 +1,48 @@
+{
+  "config_sha256": "563af70a68744233a1bc3d7a0c3e704a8952440e3ae7c7c3b3bbea5ce8914d20",
+  "params": {
+    "tol": 0.0,
+    "n_iter_no_change": 12,
+    "max_iter": 11,
+    "learning_rate_init": 0.001,
+    "hidden_layer_sizes": [
+      64
+    ],
+    "early_stopping": false,
+    "batch_size": 1024,
+    "alpha": 0.01,
+    "activation": "relu"
+  },
+  "result": {
+    "model": "mlp",
+    "evaluation_role": "tuning_validation",
+    "fit_seconds": 2.523316499995417,
+    "cv_objective": 1.0018418920457441,
+    "fit_warnings": "Stochastic Optimizer: Maximum iterations (11) reached and the optimization hasn't converged yet.",
+    "valid_rows": 1217014,
+    "valid_rmse": 0.03570992076207159,
+    "valid_mae": 0.02473131887928247,
+    "valid_r2": -0.0020215968822827612,
+    "valid_direction_accuracy": 0.5090138650828996,
+    "valid_label_positive_rate": 0.5018224934142089,
+    "valid_zero_forecast_rmse": 0.03567608398186743,
+    "valid_ic_mean": 0.030793414652540308,
+    "valid_ic_days": 240,
+    "valid_ic_ir": 0.24238699262781407,
+    "valid_rank_ic_mean": 0.032232592800712265,
+    "valid_rank_ic_days": 240,
+    "valid_rank_ic_ir": 0.2134512720136633,
+    "valid_relative_rmse": 1.0009484443477978,
+    "cv_relative_rmse": 1.0003553679343764,
+    "cv_rank_ic_mean": 0.011491852817097107
+  },
+  "model_sha256": "ec70e6e8fcff3b2cfddb64f4a9a93601c7989fe4e5a66ab068507a959ba960c5",
+  "files": {
+    "models\\mlp.pkl": "ec70e6e8fcff3b2cfddb64f4a9a93601c7989fe4e5a66ab068507a959ba960c5",
+    "models\\mlp.json": "7ead4f9ad3829ec4d968fcd274e2c0a9ab7b34d02042edc396a96453d1fa81fe",
+    "predictions\\mlp_valid.parquet": "94ee4bdaf31472b26736e5ee968935077026bd0626e36b4e705fb3eb59eb126c",
+    "daily_metrics\\mlp_valid.csv": "1ee7748d2add1371fc8313dabe1a0c9eee867df34327594d9f4b41ca392fba4e",
+    "trials_mlp.csv": "06c5ae980b11477718902ecb8da2607bba494b6c71af5698fca761056e52598b",
+    "cv_mlp.csv": "d2cf3ebee7d132570ef80202167206bd8637d8ab0bd9cd10add3bd969d0648e8"
+  }
+}

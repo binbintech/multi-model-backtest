@@ -1,0 +1,65 @@
+{
+  "train_max_rows": 100000,
+  "run_tuning": true,
+  "selection_metric": "rank_ic",
+  "clip_quantiles": [
+    0.01,
+    0.99
+  ],
+  "random_state": 2026,
+  "param_grids": {
+    "ols": [
+      {}
+    ],
+    "lasso": {
+      "alpha": [
+        1e-05,
+        5e-05,
+        0.0001
+      ]
+    },
+    "random_forest": {
+      "max_depth": [
+        8,
+        12
+      ]
+    },
+    "xgboost": {
+      "max_depth": [
+        3,
+        5
+      ]
+    },
+    "lightgbm": {
+      "num_leaves": [
+        15,
+        31
+      ]
+    },
+    "mlp": {
+      "hidden_layer_sizes": [
+        [
+          32
+        ],
+        [
+          64,
+          32
+        ]
+      ]
+    }
+  },
+  "splits": {
+    "train": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "valid": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ]
+  }
+}

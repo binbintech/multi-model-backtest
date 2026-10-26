@@ -1,0 +1,23 @@
+{
+  "role": "idealized_preview",
+  "signal_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\signals\\run_20261025T142048Z_4769f72d",
+  "signal_date": "2025-01-02 00:00:00",
+  "initial_cash_example": 1000000.0,
+  "config": {
+    "status_mode": "research",
+    "min_cross_section": 30,
+    "signal_delay_minutes": 30,
+    "timezone": "Asia/Shanghai",
+    "execution_reference": "next_trading_day_close",
+    "policy": "topk_buffer",
+    "top_k": 50,
+    "max_discretionary_replacements": 5,
+    "target_stock_weight": 0.95,
+    "single_name_weight_cap": 0.03,
+    "commission_rate_estimate": 0.0003,
+    "min_commission_estimate": 5.0,
+    "other_buy_fee_rate_estimate": 0.0
+  },
+  "account_source": "explicit_empty_snapshot",
+  "assumed_fills": false
+}

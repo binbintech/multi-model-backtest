@@ -1,0 +1,7 @@
+model,targets,nonzero_quantity_intents,estimated_buy_cash,role
+ols,50,50,905027.9538830001,idealized_preview
+lasso,50,48,875376.0496760001,idealized_preview
+random_forest,50,50,914086.69324,idealized_preview
+xgboost,50,50,914407.7895400001,idealized_preview
+lightgbm,50,50,912253.1433400002,idealized_preview
+mlp,50,50,893045.671948,idealized_preview

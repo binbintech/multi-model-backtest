@@ -1,0 +1,270 @@
+{
+  "schema": "multi_model_training_v1",
+  "models": [
+    "ols",
+    "lasso",
+    "random_forest",
+    "xgboost",
+    "lightgbm",
+    "mlp"
+  ],
+  "n_search": {
+    "lasso": 8,
+    "random_forest": 6,
+    "xgboost": 8,
+    "lightgbm": 8,
+    "mlp": 6
+  },
+  "search_spaces": {
+    "lasso": {
+      "alpha": [
+        1e-05,
+        1.9306977288832496e-05,
+        3.727593720314938e-05,
+        7.196856730011514e-05,
+        0.00013894954943731373,
+        0.00026826957952797245,
+        0.0005179474679231213,
+        0.001
+      ],
+      "max_iter": [
+        10000
+      ],
+      "tol": [
+        1e-05
+      ]
+    },
+    "random_forest": {
+      "n_estimators": [
+        200
+      ],
+      "max_depth": [
+        4,
+        6,
+        8
+      ],
+      "min_samples_leaf": [
+        100,
+        300
+      ],
+      "max_features": [
+        0.7,
+        1.0
+      ],
+      "max_samples": [
+        0.7
+      ],
+      "bootstrap": [
+        true
+      ]
+    },
+    "xgboost": {
+      "n_estimators": [
+        1000
+      ],
+      "learning_rate": [
+        0.03,
+        0.05
+      ],
+      "max_depth": [
+        2,
+        3,
+        4
+      ],
+      "min_child_weight": [
+        20,
+        50
+      ],
+      "subsample": [
+        0.8
+      ],
+      "colsample_bytree": [
+        0.8
+      ],
+      "reg_alpha": [
+        0.0,
+        0.1
+      ],
+      "reg_lambda": [
+        5.0,
+        20.0,
+        50.0
+      ],
+      "gamma": [
+        0.0,
+        0.1
+      ]
+    },
+    "lightgbm": {
+      "n_estimators": [
+        1000
+      ],
+      "learning_rate": [
+        0.03,
+        0.05
+      ],
+      "max_depth": [
+        4,
+        5
+      ],
+      "num_leaves": [
+        7,
+        15
+      ],
+      "min_child_samples": [
+        100,
+        300
+      ],
+      "subsample": [
+        0.8
+      ],
+      "subsample_freq": [
+        1
+      ],
+      "colsample_bytree": [
+        0.8
+      ],
+      "reg_alpha": [
+        0.0,
+        0.1
+      ],
+      "reg_lambda": [
+        5.0,
+        20.0,
+        50.0
+      ]
+    },
+    "mlp": {
+      "hidden_layer_sizes": [
+        [
+          32
+        ],
+        [
+          64
+        ],
+        [
+          32,
+          16
+        ]
+      ],
+      "activation": [
+        "relu"
+      ],
+      "alpha": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "learning_rate_init": [
+        0.0005,
+        0.001
+      ],
+      "batch_size": [
+        1024
+      ],
+      "max_iter": [
+        200
+      ],
+      "early_stopping": [
+        false
+      ],
+      "tol": [
+        1e-05
+      ],
+      "n_iter_no_change": [
+        20
+      ]
+    }
+  },
+  "time_folds": 3,
+  "fit_max_rows": 100000,
+  "cv_max_rows": 100000,
+  "random_state": 2026,
+  "n_jobs": 4,
+  "run_tuning": true,
+  "stability_weight": 0.25,
+  "early_stop_fraction": 0.15,
+  "early_stop_patience": 20,
+  "clip_quantiles": [
+    0.01,
+    0.99
+  ],
+  "min_cross_section": 30,
+  "splits": {
+    "train": [
+      "2022-01-01",
+      "2023-12-31"
+    ],
+    "valid": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ]
+  },
+  "selection_metric": "mean_relative_rmse_plus_stability_penalty",
+  "test_used": false,
+  "final_fit": "original_train_split",
+  "source": {
+    "model_data_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\model_dataset\\run_20261024T125348Z_2adc3b07",
+    "selection_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\factor_selection\\run_20261025T025453Z_89427e7a",
+    "alpha_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\alpha158\\run_20261024T123322Z_3e71525d",
+    "model_metadata_sha256": "06af36ae19d1749b7a3e370edafc73c190f26597450f635b950e011157b15cbe",
+    "model_config_sha256": "60657c0f48f8b59f48bae7489e91b4180ebc3213982d465adb616b6d80c23b2f",
+    "selection_sha256": "b6460fcc471f81c5e2652b20837a3a3b328b719c970d7cb3669ffe3068db83ad",
+    "selection_metadata_sha256": "f008daf0d3b6ac4af4c2ce60c75305be088d076867e9d2df08dbd903006ac76c",
+    "selection_source_sha256": "2194da44921df0ae664bdc857f134c45b5fa3d1264838fe0f5e25d9a3ce2486d",
+    "alpha_metadata_sha256": "a30cb675df46b9424c1089497805ee80f187007a1eed6e5b3068be66d2dc3f8c",
+    "features": [
+      "KLEN",
+      "MIN20",
+      "MIN10",
+      "MIN60",
+      "MIN5",
+      "STD5",
+      "QTLD60",
+      "STD10",
+      "QTLD20",
+      "LOW0",
+      "STD20",
+      "KUP",
+      "VMA60",
+      "QTLD10",
+      "RANK60",
+      "ROC30",
+      "MA30",
+      "VSUMD30",
+      "CORD30",
+      "CORR20",
+      "RANK30",
+      "CORD20",
+      "QTLD5",
+      "STD30",
+      "VSUMD60",
+      "CORR10",
+      "CORR5",
+      "VSUMD20",
+      "SUMD20",
+      "BETA30",
+      "VMA30",
+      "STD60",
+      "BETA20",
+      "QTLU60",
+      "IMXD30",
+      "IMAX30",
+      "ROC10",
+      "CORD10",
+      "VSTD60",
+      "RANK10"
+    ]
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0"
+  }
+}

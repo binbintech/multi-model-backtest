@@ -1,0 +1,2 @@
+model,evaluation_role,fit_seconds,valid_rows,valid_rmse,valid_mae,valid_r2,valid_direction_accuracy,valid_label_positive_rate,valid_zero_forecast_rmse,valid_ic_mean,valid_ic_days,valid_ic_ir,valid_rank_ic_mean,valid_rank_ic_days,valid_rank_ic_ir,cv_objective
+ols,tuning_validation,0.7773637999925995,1217014,0.0356837257025571,0.024654736085137678,-0.0005520675373820172,0.5062382191166248,0.5018224934142089,0.03567608398186743,0.02362792995450879,240,0.16641427769260192,0.019032983992761876,240,0.10617940050687356,

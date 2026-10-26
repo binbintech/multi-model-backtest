@@ -1,0 +1,7 @@
+{
+  "status_mode": "research",
+  "min_cross_section": 30,
+  "signal_delay_minutes": 30,
+  "timezone": "Asia/Shanghai",
+  "execution_reference": "next_trading_day_close"
+}

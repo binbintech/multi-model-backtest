@@ -1,0 +1,40 @@
+{
+  "config_sha256": "563af70a68744233a1bc3d7a0c3e704a8952440e3ae7c7c3b3bbea5ce8914d20",
+  "params": {
+    "tol": 1e-05,
+    "max_iter": 10000,
+    "alpha": 0.001
+  },
+  "result": {
+    "model": "lasso",
+    "evaluation_role": "tuning_validation",
+    "fit_seconds": 0.5122371000034036,
+    "cv_objective": 1.0004601422168582,
+    "fit_warnings": "",
+    "valid_rows": 1217014,
+    "valid_rmse": 0.035673932345878054,
+    "valid_mae": 0.024657982180652085,
+    "valid_r2": -2.942217594670282e-06,
+    "valid_direction_accuracy": 0.5018224934142089,
+    "valid_label_positive_rate": 0.5018224934142089,
+    "valid_zero_forecast_rmse": 0.03567608398186743,
+    "valid_ic_mean": null,
+    "valid_ic_days": 0,
+    "valid_ic_ir": null,
+    "valid_rank_ic_mean": null,
+    "valid_rank_ic_days": 0,
+    "valid_rank_ic_ir": null,
+    "valid_relative_rmse": 0.9999396896814552,
+    "cv_relative_rmse": 1.000412322141663,
+    "cv_rank_ic_mean": 0.0066363652993350905
+  },
+  "model_sha256": "a15b2f1f872a1a40d051c4281b06679cd40e74cb4c626c2d43c829063b6048cc",
+  "files": {
+    "models\\lasso.pkl": "a15b2f1f872a1a40d051c4281b06679cd40e74cb4c626c2d43c829063b6048cc",
+    "models\\lasso.json": "ef8c3024fb88ad6b87acfc18a643264576ee73f11afcac1f83ddaa0a230adfa9",
+    "predictions\\lasso_valid.parquet": "5ae7e6572f5d2949e4f616138100bf0152486ce9863d854ac7570b2c9df7eac9",
+    "daily_metrics\\lasso_valid.csv": "c5ba746da09738638d9af98ede669b66ed79530559b7f2228b25bd618db714a1",
+    "trials_lasso.csv": "98f34f4040441955966d9e63b286e1ef337d563e583e04bb6414ddf38d5e2c3e",
+    "cv_lasso.csv": "c34fcc48fb30932743312d840e754b7637da5c52ddc4ff9a58fd91239304994b"
+  }
+}

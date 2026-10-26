@@ -1,0 +1,7 @@
+﻿check,passed
+买卖金额还原毛损益,True
+费用只扣一次,True
+本金贡献分母,True
+逐日归因平衡,True
+未分配损益不强行归因,True
+空仓现金账户,True

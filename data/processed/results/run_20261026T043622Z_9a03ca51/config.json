@@ -1,0 +1,8 @@
+{
+  "flat_nav_tolerance_yuan": 0.01,
+  "flat_run_alert_days": 5,
+  "daily_return_alert": 0.15,
+  "quote_jump_threshold": 1.0,
+  "detail_model": "ols",
+  "evaluation_role": "development_replay"
+}

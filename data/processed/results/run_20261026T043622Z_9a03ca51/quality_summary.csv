@@ -1,0 +1,7 @@
+﻿model,evaluation_status,final_evaluation_ready,stale_position_days,days_with_stale_quotes,all_held_quotes_stale_days,mean_stale_nav_weight,max_stale_nav_weight,max_quote_age_calendar_days,longest_flat_run_days,valuation_jump_events,extreme_daily_returns,unmodeled_adjustment_events,max_single_name_weight,configured_weight_cap,weight_cap_breach_records
+ols,blocked_by_anomalies,False,595,200,0,0.03445135912986261,0.11727877334839297,280,0,9,0,29,0.03165065625213403,0.03,3
+lasso,blocked_by_anomalies,False,2007,179,58,0.16660904999446183,0.3496358531550695,265,57,1,1,24,0.21237034375106995,0.03,90
+random_forest,blocked_by_anomalies,False,417,116,0,0.024542959629805967,0.07931474283606911,166,0,3,0,39,0.03431784867403501,0.03,3
+xgboost,blocked_by_anomalies,False,273,134,0,0.018016140240017953,0.08801706023242284,140,0,4,0,34,0.034164366638658426,0.03,5
+lightgbm,blocked_by_anomalies,False,343,156,0,0.016020787380355433,0.05690410489393515,140,0,5,0,35,0.030625413120790534,0.03,1
+mlp,blocked_by_anomalies,False,161,121,1,0.011008645504518334,0.08428165332344019,79,0,11,0,35,0.044766594393001284,0.03,29

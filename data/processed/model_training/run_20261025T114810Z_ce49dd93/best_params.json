@@ -1,0 +1,52 @@
+{
+  "ols": {},
+  "lasso": {
+    "tol": 1e-05,
+    "max_iter": 10000,
+    "alpha": 0.001
+  },
+  "random_forest": {
+    "n_estimators": 200,
+    "min_samples_leaf": 100,
+    "max_samples": 0.7,
+    "max_features": 1.0,
+    "max_depth": 4,
+    "bootstrap": true
+  },
+  "xgboost": {
+    "subsample": 0.8,
+    "reg_lambda": 50.0,
+    "reg_alpha": 0.1,
+    "n_estimators": 38,
+    "min_child_weight": 20,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "gamma": 0.0,
+    "colsample_bytree": 0.8
+  },
+  "lightgbm": {
+    "subsample_freq": 1,
+    "subsample": 0.8,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.0,
+    "num_leaves": 15,
+    "n_estimators": 48,
+    "min_child_samples": 300,
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.8
+  },
+  "mlp": {
+    "tol": 0.0,
+    "n_iter_no_change": 12,
+    "max_iter": 11,
+    "learning_rate_init": 0.001,
+    "hidden_layer_sizes": [
+      64
+    ],
+    "early_stopping": false,
+    "batch_size": 1024,
+    "alpha": 0.01,
+    "activation": "relu"
+  }
+}

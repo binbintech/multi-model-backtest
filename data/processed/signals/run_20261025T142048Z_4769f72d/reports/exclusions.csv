@@ -1,0 +1,13 @@
+model,reason_code,rows
+ols,assumed_historical_status,1237459
+ols,awaiting_calendar,5142
+lasso,assumed_historical_status,1237459
+lasso,awaiting_calendar,5142
+random_forest,assumed_historical_status,1237459
+random_forest,awaiting_calendar,5142
+xgboost,assumed_historical_status,1237459
+xgboost,awaiting_calendar,5142
+lightgbm,assumed_historical_status,1237459
+lightgbm,awaiting_calendar,5142
+mlp,assumed_historical_status,1237459
+mlp,awaiting_calendar,5142

@@ -1,0 +1,20 @@
+{
+  "ols": {},
+  "lasso": {
+    "alpha": 0.0001
+  },
+  "random_forest": {
+    "max_depth": 12
+  },
+  "xgboost": {
+    "max_depth": 3
+  },
+  "lightgbm": {
+    "num_leaves": 15
+  },
+  "mlp": {
+    "hidden_layer_sizes": [
+      32
+    ]
+  }
+}

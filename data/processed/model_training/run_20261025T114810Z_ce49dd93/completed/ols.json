@@ -1,0 +1,32 @@
+{
+  "config_sha256": "563af70a68744233a1bc3d7a0c3e704a8952440e3ae7c7c3b3bbea5ce8914d20",
+  "params": {},
+  "result": {
+    "model": "ols",
+    "evaluation_role": "tuning_validation",
+    "fit_seconds": 1.0166021000040928,
+    "cv_objective": null,
+    "fit_warnings": "",
+    "valid_rows": 1217014,
+    "valid_rmse": 0.0356837257025571,
+    "valid_mae": 0.024654736085137678,
+    "valid_r2": -0.0005520675373820172,
+    "valid_direction_accuracy": 0.5062382191166248,
+    "valid_label_positive_rate": 0.5018224934142089,
+    "valid_zero_forecast_rmse": 0.03567608398186743,
+    "valid_ic_mean": 0.02362792995450879,
+    "valid_ic_days": 240,
+    "valid_ic_ir": 0.16641427769260192,
+    "valid_rank_ic_mean": 0.019032983992761876,
+    "valid_rank_ic_days": 240,
+    "valid_rank_ic_ir": 0.10617940050687356,
+    "valid_relative_rmse": 1.000214197295128
+  },
+  "model_sha256": "f4f711c177c82207a792cfa4873faf0defc6320085b3de5729fa0cc5ff8dd0f2",
+  "files": {
+    "models\\ols.pkl": "f4f711c177c82207a792cfa4873faf0defc6320085b3de5729fa0cc5ff8dd0f2",
+    "models\\ols.json": "4336c6da64098462aaf70429c1925e992999249c92f70aae9cbc01fa259506fe",
+    "predictions\\ols_valid.parquet": "d85dfb966a4c78770b8c475116a77607e2980bb048fc0100319adf28ab97b64d",
+    "daily_metrics\\ols_valid.csv": "f2ad13b11e17669ced8fe0a2108349d0d41f83b90e935d4c17486f07264114f0"
+  }
+}
