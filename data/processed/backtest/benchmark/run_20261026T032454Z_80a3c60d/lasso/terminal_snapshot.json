@@ -1,0 +1,126 @@
+{
+  "account_id": "account__lasso",
+  "strategy_id": "topk_buffer_v1__lasso",
+  "model": "lasso",
+  "as_of": "2025-12-31 15:30:00+08:00",
+  "cash_available": 772844.1648580062,
+  "cash_reserved": 0.0,
+  "nav": 1184459.1648580062,
+  "other_assets": 0.0,
+  "positions": [
+    {
+      "instrument": "600070.SH",
+      "quantity": 18600,
+      "sellable_quantity": 18600,
+      "frozen_quantity": 0,
+      "valuation_price": 0.42,
+      "price_as_of": "2025-04-10 15:00:00+08:00"
+    },
+    {
+      "instrument": "600811.SH",
+      "quantity": 39400,
+      "sellable_quantity": 39400,
+      "frozen_quantity": 0,
+      "valuation_price": 0.36,
+      "price_as_of": "2025-04-14 15:00:00+08:00"
+    },
+    {
+      "instrument": "300108.SZ",
+      "quantity": 24800,
+      "sellable_quantity": 24800,
+      "frozen_quantity": 0,
+      "valuation_price": 0.21,
+      "price_as_of": "2025-04-23 15:00:00+08:00"
+    },
+    {
+      "instrument": "600462.SH",
+      "quantity": 14100,
+      "sellable_quantity": 14100,
+      "frozen_quantity": 0,
+      "valuation_price": 0.21,
+      "price_as_of": "2025-07-14 15:00:00+08:00"
+    },
+    {
+      "instrument": "000622.SZ",
+      "quantity": 4500,
+      "sellable_quantity": 4500,
+      "frozen_quantity": 0,
+      "valuation_price": 0.15,
+      "price_as_of": "2025-07-15 15:00:00+08:00"
+    },
+    {
+      "instrument": "000627.SZ",
+      "quantity": 5700,
+      "sellable_quantity": 5700,
+      "frozen_quantity": 0,
+      "valuation_price": 1.58,
+      "price_as_of": "2025-08-13 15:00:00+08:00"
+    },
+    {
+      "instrument": "002750.SZ",
+      "quantity": 28200,
+      "sellable_quantity": 28200,
+      "frozen_quantity": 0,
+      "valuation_price": 8.92,
+      "price_as_of": "2025-08-20 15:00:00+08:00"
+    },
+    {
+      "instrument": "002336.SZ",
+      "quantity": 49400,
+      "sellable_quantity": 49400,
+      "frozen_quantity": 0,
+      "valuation_price": 0.36,
+      "price_as_of": "2025-07-03 15:00:00+08:00"
+    },
+    {
+      "instrument": "600804.SH",
+      "quantity": 115200,
+      "sellable_quantity": 115200,
+      "frozen_quantity": 0,
+      "valuation_price": 0.14,
+      "price_as_of": "2025-06-30 15:00:00+08:00"
+    },
+    {
+      "instrument": "600190.SH",
+      "quantity": 40500,
+      "sellable_quantity": 40500,
+      "frozen_quantity": 0,
+      "valuation_price": 0.63,
+      "price_as_of": "2025-07-18 15:00:00+08:00"
+    },
+    {
+      "instrument": "600387.SH",
+      "quantity": 19200,
+      "sellable_quantity": 19200,
+      "frozen_quantity": 0,
+      "valuation_price": 0.94,
+      "price_as_of": "2025-07-04 15:00:00+08:00"
+    },
+    {
+      "instrument": "300208.SZ",
+      "quantity": 70200,
+      "sellable_quantity": 70200,
+      "frozen_quantity": 0,
+      "valuation_price": 0.28,
+      "price_as_of": "2025-07-18 15:00:00+08:00"
+    },
+    {
+      "instrument": "000584.SZ",
+      "quantity": 70200,
+      "sellable_quantity": 70200,
+      "frozen_quantity": 0,
+      "valuation_price": 0.29,
+      "price_as_of": "2025-07-10 15:00:00+08:00"
+    },
+    {
+      "instrument": "000851.SZ",
+      "quantity": 7200,
+      "sellable_quantity": 7200,
+      "frozen_quantity": 0,
+      "valuation_price": 0.38,
+      "price_as_of": "2025-09-26 15:00:00+08:00"
+    }
+  ],
+  "open_orders": [],
+  "snapshot_role": "actual_event_account"
+}

@@ -1,0 +1,715 @@
+{
+  "signals": {
+    "signal_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\signals\\run_20261025T142048Z_4769f72d",
+    "signal_metadata_sha256": "cd567821977fc754b558d5158ebef0189d1fdc4490d08035ed9cf7abb8837d33",
+    "signal_config_sha256": "6ba787305d8b1b49b9fd4611442db53b3a88c6ba79a59ea1e72c791cd623f9ce",
+    "signal_source_sha256": "1e7b47af2a0ae81add3ade3b3930ddc21c436f3759ad3821e5a078eb1f83bca8",
+    "signal_notebook_sha256": "3d10ec5c91faf9f37d982116bd24fcd5a4f887671fbf13b01e2333fccdf788d1"
+  },
+  "market_files": [
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241120.csv",
+      "sha256": "2e8fee4e1725f1962c507b8e1f0ad549e98061f6b5b2a7020afc632a648a81f8"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241120.csv",
+      "sha256": "016877a45d7c0c119e21f45575ce58efe17aeee38007fb4993188994bd167d25"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241121.csv",
+      "sha256": "18166905fc76f988dcb8edbfbaa23b03713fef5576b30f91de2142922c85f5b2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241121.csv",
+      "sha256": "2f47b1389bccddfb558e260167aafac016c0670164affed6dab272df7a4df7a5"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241122.csv",
+      "sha256": "a2450a016e67314221082048ccc41ff32e758cdbfe86ecf18d62b98b64197c53"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241122.csv",
+      "sha256": "8437b865ce3b5bec20f2f6487329e4e18e244bf0e71fd1188834a56705ecec60"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241125.csv",
+      "sha256": "e6d9ee440c3d1779fa56c78194b72d9aa73b2b6da7a80e8df8da4ace4ab3b62b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241125.csv",
+      "sha256": "71f461ab107aac9d0fc61f74bfe744f80d095a367496bf48626cab31aa30f7b1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241126.csv",
+      "sha256": "6accad668eb43be483c022c99c1d773dad4f650547cc5b4b7ee555b158b46ad6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241126.csv",
+      "sha256": "770dc92296c1fb34844b41507de81973fe42c65d59fbd615d1c9618d827df820"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241127.csv",
+      "sha256": "e53cbb6fd18e1017ceefcfbb70d4d7e423e3a271cc6965103c91c5df07f44767"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241127.csv",
+      "sha256": "6312ad5c069db0f55bb1f1a0b93c6a9fbf009702cb584e2dd1465dea225ac021"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241128.csv",
+      "sha256": "8c3e9de86fa4cc37880ffe8b22c8331253244239db4f9af7708d675c3ae19db9"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241128.csv",
+      "sha256": "23c42ed8a9f2a6b1f7e29ab398f2b7926498244f0f9690e4feff7df8c76c304e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241129.csv",
+      "sha256": "5f1ad41cb96f04dfa7f31deb21bcbaff6352b27e75d262f95a186e94b642c7ab"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241129.csv",
+      "sha256": "f9ae82f0f227263d705851f0c142575c9638c991b3b9b9cc948f85e7f3ecd3be"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241202.csv",
+      "sha256": "bd97fe43a16e1081c468026b6f585b6209f4717581e508d00fea6e8a5f0f62b1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241202.csv",
+      "sha256": "69820a59c8cf916eb3edaea68e5ac61d46cb9bd52d0a6dc7ce31d71d0e44544b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241203.csv",
+      "sha256": "5fe9a451cac408aa16ec3ab39b8059e97af907b3e987f0042446ea20e6ce55be"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241203.csv",
+      "sha256": "abb25e62600d87145463f18f11c3f50e2027deaa2cc83b89c404520b996979a3"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241204.csv",
+      "sha256": "935c7b4b3e69c588d830bdd122880ca983f21a9a1d52d219cc81b763a0bff375"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241204.csv",
+      "sha256": "64921b1e3e3e0257fced04d1f70e1d67608c19101300103b67f85ce0d8f19786"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241205.csv",
+      "sha256": "6d1fb43996242d915cf8a49b00a806131f227a18460554f31516084e2b8c442d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241205.csv",
+      "sha256": "222d9d2308f4421e8a96964c71ea6edd8998d18935a36dcd7376fad23f46f312"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241206.csv",
+      "sha256": "578374bfcd67157fc2ec375caa016ed9e2945c388a2cadf5d98acb693b6b4c94"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241206.csv",
+      "sha256": "937f710a4746f7f165a5177f715881582a148ba6b8830015541bdf140fe56d50"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241209.csv",
+      "sha256": "13b40d1b3222caa55e7a16b8f76bd055833740c5a19c063cd8255c33bd09819e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241209.csv",
+      "sha256": "37845cc0aae024d980d8642acad45eaa66977e02c566c3514b600913001b1708"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241210.csv",
+      "sha256": "5ce28f2265a82f3615f4d31e7c885cc450898c9b3eb7299fc541db26cb46604b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241210.csv",
+      "sha256": "f74856c887017b002d5140214af9df8d0c195f92a09b4d5f48ffe1aa5f7efca3"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241211.csv",
+      "sha256": "07de942ed215c937c9b8f58f609dc775be67669b44c173e6d169f1bf77969c5b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241211.csv",
+      "sha256": "f0149a10a74ad70f88960288de09b8bbb9971d23d526c6a2ea0ce8500813b0eb"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241212.csv",
+      "sha256": "af2ff8e8d8ea08239a8bf645aab67934252b58b95a7ec6cbeb3d026ded4db2af"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241212.csv",
+      "sha256": "6dcd95a67dc449a9b4977299838cae9300b4420c5333834501e37642c5d6c277"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241213.csv",
+      "sha256": "bc178c2a354ae69089b083ef32b6642ce2d55a783ad35e61890603c16b6f5f7f"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241213.csv",
+      "sha256": "0c1d0afdefe5ba5810204bc912d8c3a2594173e953a72922971f00ebaeb4e5aa"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241216.csv",
+      "sha256": "63f7cf4d6aca16edb1247a8fd4aba9e6d4950d6dd333a1084687d7c48b589909"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241216.csv",
+      "sha256": "39006b82116df259d82c62f525ad27c1b459e684e7195c829520586a60cf96cf"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241217.csv",
+      "sha256": "17d738a1f2abdded22ee1c518d47b0e13facc291822eef34741d102375ebc734"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241217.csv",
+      "sha256": "875c73f51026ae5605c3ffce640de1e405af43bae8e30ddb8a42b1c24c1b68b2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241218.csv",
+      "sha256": "66b23959804c2f96bb43e40127895fcdcfe089481ac7c188c9902ac9321cef5b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241218.csv",
+      "sha256": "b9eae2bc4bdf7cb7ee4b0ada88c883ba44e529a71d5d4783e39f8dd07123ca07"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241219.csv",
+      "sha256": "ddc5d95486957fe8883582552ece93756ff200da3503d60fe4ced341d4a0e98d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241219.csv",
+      "sha256": "cc7618bc03a393eb267a6f9c0f3e2d88224fb09dacc4cd95b732fcfe0cd584f5"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241220.csv",
+      "sha256": "fdeb4a135cbab7beadcdbfaccd27ebbe8fe96302e4e694e81fafdc90190abd0d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241220.csv",
+      "sha256": "008812ef10824224ce566851bf53048d6588dede1bda39d5edda4a4d7c4fbc44"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241223.csv",
+      "sha256": "28f75522584d17ae5151233135e9d2cc307974232cdad507261066bfda07896e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241223.csv",
+      "sha256": "85a49e59772041eda024467c39591e2a555ca742190dc4ec369ef3594592a563"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241224.csv",
+      "sha256": "2a459183fe02669173bbf273d0e6c2577843d2f412dc8e088fab527265655d8e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241224.csv",
+      "sha256": "52d36b803550dceeb803820aad87aea6443f793a9c5045aef8333f607925a145"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241225.csv",
+      "sha256": "8c9363341a2934a44175d6e968a98414f15164cf07a15fc59eeb58074cbd97b1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241225.csv",
+      "sha256": "5734933500c20ebf0fcf74b67984a603c6bede2f49e95229ab96a44993f78a06"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241226.csv",
+      "sha256": "2089aa9bef481aa805aa93faf018b494c0899a1f72fff1053d22a5347306b1cc"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241226.csv",
+      "sha256": "ac30058bf5decd2f70808aee721382d0f148efa91b63c3ef0073588d74d46edd"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241227.csv",
+      "sha256": "afe74d4c278ef2c58099d00a22511f37836cddbc4b25a72cff40462e1e076365"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241227.csv",
+      "sha256": "be0639adbc91e97a6eac4cb4b19c9302dee22b60968220bdd074e36bbf5a0ef2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241230.csv",
+      "sha256": "1c6e937e852e3a35cb058980e317120b7d0b02dfee77bcb04795ca731554b4e8"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241230.csv",
+      "sha256": "0223dee571eb7a24f8c567faac43b31389c6cd7044fa36e881af04b648ad6f8d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2024\\20241231.csv",
+      "sha256": "dbb06a7ecd2187182cf67560d07a01e3e5f19035f2b681611294fe97fdbdb7cf"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2024\\20241231.csv",
+      "sha256": "0b62f29abb25af0c93e587e6ee418d4c6c370dee77bd76cfbdfb7a6ce7a3c3d4"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250102.csv",
+      "sha256": "7768a21ead149458642b0779d7a848c65b19c3daff64128fea0674de5759e147"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250102.csv",
+      "sha256": "c69078dff61a802f56628c4b03e9f025e3561545f36a14e9983a71195c4202a2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250103.csv",
+      "sha256": "81726b8cac902d58701d34f59acdb56309cca0dca5b1c71af404f1985edffa04"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250103.csv",
+      "sha256": "83a070d59c80576a5012cbe7673b1a9634d9015404a9349c5e3af7a5313ba4fe"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250106.csv",
+      "sha256": "b7aa04366c28e6259483e4a8e0053047dbc39f3dae0d37742a983a96883d30ff"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250106.csv",
+      "sha256": "beb5a25e713c5a6ecab4aed26dfbf887c5222eb8c3df249c9dc1d63342900ea6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250107.csv",
+      "sha256": "2bf803c5dcf940ce6b51c9bbf264d66e41e5611b7edeb54de94db27bb8994d47"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250107.csv",
+      "sha256": "4a02142b1bcf7c7e7f79eafb03ba75cb494d4ecad12e56ed53652927a48b9493"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250108.csv",
+      "sha256": "2bb38e6a5dc7eecfdd9c15defc8b4c52ebb6a82558c1b8ed1a221427e499d212"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250108.csv",
+      "sha256": "3b18a5f20208adda35cce21daf483bd717106187e88fc8d13082ab67158c390c"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250109.csv",
+      "sha256": "02d67c40f3b53e920dd90388fdf6411f818ecf68c265d83ff2aa6024d28a108e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250109.csv",
+      "sha256": "00d8cdaef8cc103c437aa2ea675815e6bc98efe55ee240f58b479ddafeff0529"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250110.csv",
+      "sha256": "3dd0fe62cac888190542eaacfeafd695ddf3cbf8a3c2335328b24a24c551632e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250110.csv",
+      "sha256": "96e5ba75b3352fd25fbdd351e54e5de377330885721d86672de160d6df23af59"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250113.csv",
+      "sha256": "da7098cff40413dd6904434f39fc4d3484c03903ab7d5571e1e992e1b6a672bb"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250113.csv",
+      "sha256": "676931b98cad141542d6e6bd7056d83638cb657ed3446d08f1e0a17b782c6313"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250114.csv",
+      "sha256": "a054fd01c34657dbd8ddf5cc51049eb93b05ba807690a6fc5dd1438d5d73cc69"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250114.csv",
+      "sha256": "11d69b2876a41fec66bb87c87b3516f47b682a7cf339142bb4135df5afc4a209"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250115.csv",
+      "sha256": "bd302f5b81dece7c529209ed0b1ba1af64c53347d5c835430329c83ddafa17c6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250115.csv",
+      "sha256": "68bd920aa4274cb819d703e5e773926189cbba389935da71ff426e003c9788a9"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250116.csv",
+      "sha256": "5f19d901f7f7ac22989e3d971f19de710426a66609af7fd1670f0ade0e65f852"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250116.csv",
+      "sha256": "db623689ed0ae8099abbb2ee646d185c957ed686979bce9abbc5ef9ba29fb91b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250117.csv",
+      "sha256": "f1a96ae8ff09ea59791831e7a45bf4aba2974b3e7f9dac7799d6f72d0dd1dbc1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250117.csv",
+      "sha256": "ab8d68ebd7c528e52ce93c4fb5db298a04f03fb5057d72e92a18fe51bfc36362"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250120.csv",
+      "sha256": "6669c7e89bad18eee11793459fbeb2718b89b3a38e56e264111c85a870526f34"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250120.csv",
+      "sha256": "06833c0d7c18672db53ded40626e0415b3b1697f420c69d739ef077112cc6e13"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250121.csv",
+      "sha256": "574ce08edc3a7a2c565a4bb5f17884554f9006a6428248bacf81882c1a9caa02"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250121.csv",
+      "sha256": "2a6821f4bb8e3b51206b3517669c850c030f69e5058006250b89ad6fab6ab03e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250122.csv",
+      "sha256": "db61f21c8057315cf2fb8464d2086d837ce180e19bb6b3ed798e0a1cdf40dde9"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250122.csv",
+      "sha256": "733e9690d6df8d1d7d4674a53445f7b871ef39ee44688d66b8d7ed84c51e13c6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250123.csv",
+      "sha256": "fb66868ee103e22dfc36252268fbc65a12d33c4511f74fb5924c7c65516e34d3"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250123.csv",
+      "sha256": "88dc25882035a474308c51da632d4544b9e94af8c8eff80cf3c20998c5950591"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250124.csv",
+      "sha256": "5bd37af943ae0f34ab0f119b248a5150ed0d11ff576ff98e5703a634083e110c"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250124.csv",
+      "sha256": "2a48612bc024b30e8adf1d118d51a42157ef0a2497177c15af45981e23bbd34d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250127.csv",
+      "sha256": "1600fad54922654e80c0afd298a1a7fbcd0ecd95cb82f002a16a62e9305d8506"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250127.csv",
+      "sha256": "075ee81ad684f8645e6abb432798b94085b02f9ec132eb61e7872097c8ad9675"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250205.csv",
+      "sha256": "45db896fd112d32ee801534b5e3b6e2f36cb3ed4cf53074c3cf7b6a19af66c55"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250205.csv",
+      "sha256": "88fe4bdf245508c7941df2209ea3abe04944a35b64d8c7f99364b23f68e02fdd"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250206.csv",
+      "sha256": "7c5df948205bb6164b5a372583308cbdba02c33131cd5b4c97c4b843a9695fe4"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250206.csv",
+      "sha256": "1f78299cb9310e8b7c57c2a1ccaa59e3f0f4c6e8e1bc047a8ffa6ce37aae1a8f"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250207.csv",
+      "sha256": "ce8342d19f912741105f6b00819100cc961a6bbf816f36a3a16a5696e63a34e8"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250207.csv",
+      "sha256": "6abd4c7b1991e3165d9386bb3637072041f7b954b2065e956d7cd8ee02afc96c"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250210.csv",
+      "sha256": "57cc2204602a984e381d00e20aac8d94301ea88e0bec40b1b418dff1d1141197"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250210.csv",
+      "sha256": "4da53a8185e470da1c34fa400a609edf09ef138bff318667c6d2621648f60f5a"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250211.csv",
+      "sha256": "735139854c12b12600ad70bdcf6dbb2724ef904b5a609de8a5336dd873fc8b17"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250211.csv",
+      "sha256": "e9765e05d0a3f3b9476797e4677f770f64d151ffd6e78262626cb744649b153b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250212.csv",
+      "sha256": "623c049a4a964d00aa6621ae5638800988d75edb14c65a7caa74202a3813bd63"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250212.csv",
+      "sha256": "e5cfe3b445928e55dfd83a32806de42e7925980e8f09c0d7fbce5e287de94fa9"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250213.csv",
+      "sha256": "f0ae033107e06e306a9bcb2f77cb32c3690685efbb55a2bd856297143da7948b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250213.csv",
+      "sha256": "566e136b051be3755586101261faa5d8ade09dc7013ebbf2ce21d4e219076284"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250214.csv",
+      "sha256": "76750eaac8770e027e4435c31d09a4be1c9f43deb497b506cb0020056c4f17be"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250214.csv",
+      "sha256": "52ef4a8e034f83640385e3196ce56690d09f8aa8043e83356e97c55c48e2f35d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250217.csv",
+      "sha256": "9f8120db4f26a1fe32262f53141722a029234c9b3c0c6c4faf899d74f4a4d67f"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250217.csv",
+      "sha256": "7385de38c30ded7fa8da1cca1c6bbffc85e89bb57d016a5fc133cb14d8f2bf4c"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250218.csv",
+      "sha256": "15ce2c8da69edc95b733a7e5c613625cbd61347145703bff768d49e782232baf"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250218.csv",
+      "sha256": "0c84c7fbdebe8e409085bfde62e8688ebcd5de79b0fc33d1e2332766210015e2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250219.csv",
+      "sha256": "4af730a3d1f513877db0b9046fca9530413501a84cb43331118373734b8f3b01"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250219.csv",
+      "sha256": "41bd41d421dea8747557741fcdd9ab8e2106732fcaba03ef7efcc1d44bd708fe"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250220.csv",
+      "sha256": "3131a726da6a27bd51d9030990035a9eea29493e6c13ee2c350c0daaa317cdab"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250220.csv",
+      "sha256": "fd952822080ce63b1926db6f98382bed0a03ab46982183a74a434f7eeded6597"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250221.csv",
+      "sha256": "1453694604a863d7c0663ab08e0d00c28e4d5f52fdb12ae38b6d43981d992c53"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250221.csv",
+      "sha256": "f36724e53ce9f85c11a76ae8d91de6fdfb6fb809094065ea29fbaa6191e6357d"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250224.csv",
+      "sha256": "36dbbc0adaaa497bde0e54748c3c713e36419ada4112a1c2690cdd99a110c275"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250224.csv",
+      "sha256": "4bf40a050f59f0d3f63a8a0dda84ebe7227a03ac6b2f5008d3a927bf05dc8ad7"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250225.csv",
+      "sha256": "24bd52af756ac827d5af6bab9e497c07bc5fd9079f137c400ee7817ba3da4f6a"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250225.csv",
+      "sha256": "6c0d53258d5aa78d620205ce3796fe033db0bf20c909fb367643dab925cf816f"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250226.csv",
+      "sha256": "47e0052f21f17f20cca9a00d41e52d938f29308f4dda7c9cfb7738ce82d4f7e1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250226.csv",
+      "sha256": "2767f6ef12dab12503cc4ac6ab6cfac1d24be2fd25674d3630d082c2b8c16a14"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250227.csv",
+      "sha256": "26f8f6222607ff94de68015934897a085998b2d2f85ddb3ef4a7fefce623327a"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250227.csv",
+      "sha256": "b7c92d4cca45009a854be8d051d31d633a42eee6710bf667c27260ff8083a20e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250228.csv",
+      "sha256": "fbacb13e3e7727a1d65bb4a5f762e39418b7f762d998bb33e64699e6e2225096"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250228.csv",
+      "sha256": "25e6d2da9265a7b2bc610d65eb0593446724d8628e3cd44bdb7ff388095dcc6b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250303.csv",
+      "sha256": "9c9daf373a28fb9162c66d71135ea5ab776784d77605e7ebaaaa549edf6da7a1"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250303.csv",
+      "sha256": "33be8c256a56f2d473bf8c12fa1c5e94d82e2666239b2d7a781c95e4b0837d41"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250304.csv",
+      "sha256": "2ad7a7deea2c3484d8877aa3a2cffc5a82f5cd20dc1455cb42c30a6800756598"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250304.csv",
+      "sha256": "b4fa6f1d3bcabadd1cee9da281927d703f7dd90e2b3d6641ee26de0838ef27c6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250305.csv",
+      "sha256": "ac932f22f37462ea2c0d893f98f19977543d00263b6aa11c28456260c7c73b04"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250305.csv",
+      "sha256": "c2b4b426c693f6a4e2b7584b47cb6ec15cc0d3ab98ebf0336d332ce0b9ac85d2"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250306.csv",
+      "sha256": "086a70e5792514dcadb75bd03545fcba3c15c77d30c8709ce747342a8413003c"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250306.csv",
+      "sha256": "42b9b7d1638fd29a1d69a4d7352b9aaa0dd0fd6c0e4819c0b7485ce5a205d5ae"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250307.csv",
+      "sha256": "fae43b778791e08ac4a1806fd3885561611023e43823e9a00aeda83b10295356"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250307.csv",
+      "sha256": "cbee4f39772045d7fab48cacfaaf5a3bc2583870b5c0f8461fc0aee3f0508794"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250310.csv",
+      "sha256": "f31c583333cb0cb36720c1d0d04fd00e2e03be042cd33a30dba832e74debac14"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250310.csv",
+      "sha256": "a5cae6884b1ea793856154f59ed233b99c1d3b8aae32ddcc2816c4cf5a45e9e7"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250311.csv",
+      "sha256": "11a3e1186940bb57458734303ad46456a9c31a0c84df949ca7ba13e4f7302884"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250311.csv",
+      "sha256": "d42f801733b727529e4b3bff51364360ec12fc9b5258d4527dc62cc29d4da47e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250312.csv",
+      "sha256": "74d68b3ab07c3f089fc8e7df91e5c6950698f0512022306d96d3b84a5bce4008"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250312.csv",
+      "sha256": "01014a8b7753c5fde6959f9cf4a6993a4c80232dcf13b50081086863c0c40608"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250313.csv",
+      "sha256": "e8e057540c41f037cd8203b1577ed3c2e29bf381b5eccf03a33f25228e7ac22b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250313.csv",
+      "sha256": "1c9857c5daa509b60dc6b5c265cd07ec05b45abc99a48f6dd45bcdd4c9a27215"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250314.csv",
+      "sha256": "40b2f946df21fc76a91079c37333a384c12310d2e8107b153addc34ed4e99ddd"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250314.csv",
+      "sha256": "7cfe6603d637ebb9bd9d60135793f8e220fde91ade261f712cbdb4893b284d03"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250317.csv",
+      "sha256": "7a9236aab5f75314857d1c935b6090c214ffa380e5fc0294751345aef3aac9d3"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250317.csv",
+      "sha256": "20a91f750381e4131d4d52e87878905bb02335e504ecd91231ff5c8df368c96b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250318.csv",
+      "sha256": "9708725b538ded4b4cf1b5c8d590d0224951d0dd9e09e4779501083db8026f0a"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250318.csv",
+      "sha256": "13979aea70141f8bac37c08fd3edfb4d5244326e3aed0bf9db429ca4fc0d18d8"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250319.csv",
+      "sha256": "ed0898ba15483882df9f9137d7223a542156d732594a1c8f90aab8cb9241a6c8"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250319.csv",
+      "sha256": "0e7e134e69e4571d0e8196f35b882fcf2a815e8a3def14d4fd4285b6939ad358"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250320.csv",
+      "sha256": "6a3f12551e772da1bff9bb3e2fd9dca8f84a28940ea2847db04f921500cc37d4"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250320.csv",
+      "sha256": "7dcf8101776120a5a4dbd459ef25ad3cd52fe9475b6b75bacea52c0adca3c00e"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250321.csv",
+      "sha256": "ce258403e263fc73f42020f962ee9ff6cea006017daa82a40431571b1d553945"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250321.csv",
+      "sha256": "dc12825b5437d0dfa81d24e6bd6d9942f408ff69aad74643ad4c3354a202d524"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250324.csv",
+      "sha256": "76e5160067ddfc35f425af864804c58d3935faf0e179534c2056f1dab65f25f4"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250324.csv",
+      "sha256": "6aebf1fa33bb82025a47eab8908313415b1f9ddc19a46e349aca17eaf01bb3e7"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250325.csv",
+      "sha256": "83220a1c2f5d5c7d1ff70110080a563e56042ee85d13a4bcc7c990af54f3fe46"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250325.csv",
+      "sha256": "aa1d4a27a93078dd8a8f87d03f25295ded1a892022c88bdeccdb77c5f4bca874"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250326.csv",
+      "sha256": "580dca7fa7002b788d95e76fdc58fe9256af9bec81772f3272cbe9013027b8dd"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250326.csv",
+      "sha256": "c8b02fbdd46ad630df27a6cef279012a59c40a3e04367ba0c3d4038efd6910a6"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250327.csv",
+      "sha256": "f3d2b712c163fc49afeec33dd809938626ee90a1fa096e48918dc28c92a3436b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250327.csv",
+      "sha256": "a0a383e6a23385d90fc40964e20af81e9d9b5a929006fe2918b33a5b213a4712"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250328.csv",
+      "sha256": "5263369293f82e81ae90ec077e68c80417ac858737dfd3ef1003222d3564a0e0"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250328.csv",
+      "sha256": "7739a8f30f7d50117def766c4d06de82f50fa8ac5678fd33f0d833c12b3715da"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\daily\\2025\\20250331.csv",
+      "sha256": "f90a8fce1d515bc5ce0ba917e775b3f94b79b349356f980d576180bbe6243579"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\adj_factor\\2025\\20250331.csv",
+      "sha256": "185139e2b03c5d7c7fd20628d342f0058d5a37752c7aeb4e4197e381ec29d8ef"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\basic\\stock_basic.csv",
+      "sha256": "a607dfad298063a6c052d7b2c162c92205f6fced9a7c3dc16e0d5e85e122b06b"
+    },
+    {
+      "path": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\raw\\basic\\trade_dates_20220101_20251231.csv",
+      "sha256": "c7770db627dc35437d9778543cf42902f7d224d9ebc5c2efb96ca3a68cd30dcf"
+    }
+  ]
+}

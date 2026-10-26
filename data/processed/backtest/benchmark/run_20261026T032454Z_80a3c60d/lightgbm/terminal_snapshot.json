@@ -1,0 +1,406 @@
+{
+  "account_id": "account__lightgbm",
+  "strategy_id": "topk_buffer_v1__lightgbm",
+  "model": "lightgbm",
+  "as_of": "2025-12-31 15:30:00+08:00",
+  "cash_available": 189382.46218496538,
+  "cash_reserved": 0.0,
+  "nav": 947557.4121849653,
+  "other_assets": 0.0,
+  "positions": [
+    {
+      "instrument": "000627.SZ",
+      "quantity": 10500,
+      "sellable_quantity": 10500,
+      "frozen_quantity": 0,
+      "valuation_price": 1.58,
+      "price_as_of": "2025-08-13 15:00:00+08:00"
+    },
+    {
+      "instrument": "000851.SZ",
+      "quantity": 7500,
+      "sellable_quantity": 7500,
+      "frozen_quantity": 0,
+      "valuation_price": 0.38,
+      "price_as_of": "2025-09-26 15:00:00+08:00"
+    },
+    {
+      "instrument": "603388.SH",
+      "quantity": 10100,
+      "sellable_quantity": 10100,
+      "frozen_quantity": 0,
+      "valuation_price": 0.58,
+      "price_as_of": "2025-11-10 15:00:00+08:00"
+    },
+    {
+      "instrument": "300280.SZ",
+      "quantity": 39600,
+      "sellable_quantity": 39600,
+      "frozen_quantity": 0,
+      "valuation_price": 0.33,
+      "price_as_of": "2025-10-13 15:00:00+08:00"
+    },
+    {
+      "instrument": "688496.SH",
+      "quantity": 2631,
+      "sellable_quantity": 2631,
+      "frozen_quantity": 0,
+      "valuation_price": 5.94,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300125.SZ",
+      "quantity": 2000,
+      "sellable_quantity": 2000,
+      "frozen_quantity": 0,
+      "valuation_price": 7.63,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300344.SZ",
+      "quantity": 5100,
+      "sellable_quantity": 5100,
+      "frozen_quantity": 0,
+      "valuation_price": 1.02,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600696.SH",
+      "quantity": 3600,
+      "sellable_quantity": 3600,
+      "frozen_quantity": 0,
+      "valuation_price": 2.9,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002713.SZ",
+      "quantity": 1500,
+      "sellable_quantity": 1500,
+      "frozen_quantity": 0,
+      "valuation_price": 8.98,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600576.SH",
+      "quantity": 2700,
+      "sellable_quantity": 2700,
+      "frozen_quantity": 0,
+      "valuation_price": 6.24,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002231.SZ",
+      "quantity": 7300,
+      "sellable_quantity": 7300,
+      "frozen_quantity": 0,
+      "valuation_price": 1.4,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300716.SZ",
+      "quantity": 1700,
+      "sellable_quantity": 1700,
+      "frozen_quantity": 0,
+      "valuation_price": 11.97,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600355.SH",
+      "quantity": 6900,
+      "sellable_quantity": 6900,
+      "frozen_quantity": 0,
+      "valuation_price": 2.24,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300047.SZ",
+      "quantity": 1400,
+      "sellable_quantity": 1400,
+      "frozen_quantity": 0,
+      "valuation_price": 12.55,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600200.SH",
+      "quantity": 41700,
+      "sellable_quantity": 41700,
+      "frozen_quantity": 0,
+      "valuation_price": 0.29,
+      "price_as_of": "2025-12-29 15:00:00+08:00"
+    },
+    {
+      "instrument": "603815.SH",
+      "quantity": 1900,
+      "sellable_quantity": 1900,
+      "frozen_quantity": 0,
+      "valuation_price": 7.44,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300391.SZ",
+      "quantity": 9800,
+      "sellable_quantity": 9800,
+      "frozen_quantity": 0,
+      "valuation_price": 0.87,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300205.SZ",
+      "quantity": 4500,
+      "sellable_quantity": 4500,
+      "frozen_quantity": 0,
+      "valuation_price": 4.8,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "688466.SH",
+      "quantity": 1123,
+      "sellable_quantity": 1123,
+      "frozen_quantity": 0,
+      "valuation_price": 16.27,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300723.SZ",
+      "quantity": 500,
+      "sellable_quantity": 500,
+      "frozen_quantity": 0,
+      "valuation_price": 33.55,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "603226.SH",
+      "quantity": 500,
+      "sellable_quantity": 500,
+      "frozen_quantity": 0,
+      "valuation_price": 31.62,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300614.SZ",
+      "quantity": 1500,
+      "sellable_quantity": 1500,
+      "frozen_quantity": 0,
+      "valuation_price": 12.68,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600608.SH",
+      "quantity": 5300,
+      "sellable_quantity": 5300,
+      "frozen_quantity": 0,
+      "valuation_price": 3.38,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002289.SZ",
+      "quantity": 600,
+      "sellable_quantity": 600,
+      "frozen_quantity": 0,
+      "valuation_price": 29.17,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002789.SZ",
+      "quantity": 2100,
+      "sellable_quantity": 2100,
+      "frozen_quantity": 0,
+      "valuation_price": 10.48,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300736.SZ",
+      "quantity": 1100,
+      "sellable_quantity": 1100,
+      "frozen_quantity": 0,
+      "valuation_price": 15.51,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "603829.SH",
+      "quantity": 600,
+      "sellable_quantity": 600,
+      "frozen_quantity": 0,
+      "valuation_price": 22.23,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300173.SZ",
+      "quantity": 4000,
+      "sellable_quantity": 4000,
+      "frozen_quantity": 0,
+      "valuation_price": 4.23,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "605580.SH",
+      "quantity": 500,
+      "sellable_quantity": 500,
+      "frozen_quantity": 0,
+      "valuation_price": 22.56,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600730.SH",
+      "quantity": 1500,
+      "sellable_quantity": 1500,
+      "frozen_quantity": 0,
+      "valuation_price": 10.94,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600800.SH",
+      "quantity": 4800,
+      "sellable_quantity": 4800,
+      "frozen_quantity": 0,
+      "valuation_price": 3.46,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002228.SZ",
+      "quantity": 2800,
+      "sellable_quantity": 2800,
+      "frozen_quantity": 0,
+      "valuation_price": 4.62,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "688599.SH",
+      "quantity": 1087,
+      "sellable_quantity": 1087,
+      "frozen_quantity": 0,
+      "valuation_price": 16.55,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300587.SZ",
+      "quantity": 3000,
+      "sellable_quantity": 3000,
+      "frozen_quantity": 0,
+      "valuation_price": 6.13,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "688793.SH",
+      "quantity": 816,
+      "sellable_quantity": 816,
+      "frozen_quantity": 0,
+      "valuation_price": 21.8,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002424.SZ",
+      "quantity": 4000,
+      "sellable_quantity": 4000,
+      "frozen_quantity": 0,
+      "valuation_price": 4.35,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300111.SZ",
+      "quantity": 2900,
+      "sellable_quantity": 2900,
+      "frozen_quantity": 0,
+      "valuation_price": 6.13,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300204.SZ",
+      "quantity": 600,
+      "sellable_quantity": 600,
+      "frozen_quantity": 0,
+      "valuation_price": 27.32,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300670.SZ",
+      "quantity": 2700,
+      "sellable_quantity": 2700,
+      "frozen_quantity": 0,
+      "valuation_price": 7.11,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300831.SZ",
+      "quantity": 1600,
+      "sellable_quantity": 1600,
+      "frozen_quantity": 0,
+      "valuation_price": 11.02,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "002294.SZ",
+      "quantity": 300,
+      "sellable_quantity": 300,
+      "frozen_quantity": 0,
+      "valuation_price": 49.55,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300207.SZ",
+      "quantity": 600,
+      "sellable_quantity": 600,
+      "frozen_quantity": 0,
+      "valuation_price": 26.15,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "301035.SZ",
+      "quantity": 200,
+      "sellable_quantity": 200,
+      "frozen_quantity": 0,
+      "valuation_price": 68.01,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600795.SH",
+      "quantity": 3400,
+      "sellable_quantity": 3400,
+      "frozen_quantity": 0,
+      "valuation_price": 5.04,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "600882.SH",
+      "quantity": 700,
+      "sellable_quantity": 700,
+      "frozen_quantity": 0,
+      "valuation_price": 25.14,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300029.SZ",
+      "quantity": 4000,
+      "sellable_quantity": 0,
+      "frozen_quantity": 4000,
+      "valuation_price": 4.49,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "300585.SZ",
+      "quantity": 900,
+      "sellable_quantity": 0,
+      "frozen_quantity": 900,
+      "valuation_price": 17.79,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "603559.SH",
+      "quantity": 2500,
+      "sellable_quantity": 0,
+      "frozen_quantity": 2500,
+      "valuation_price": 6.99,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    },
+    {
+      "instrument": "688073.SH",
+      "quantity": 299,
+      "sellable_quantity": 0,
+      "frozen_quantity": 299,
+      "valuation_price": 61.05,
+      "price_as_of": "2025-12-31 15:00:00+08:00"
+    }
+  ],
+  "open_orders": [],
+  "snapshot_role": "actual_event_account"
+}

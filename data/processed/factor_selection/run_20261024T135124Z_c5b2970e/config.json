@@ -1,0 +1,18 @@
+{
+  "batch_size": 8,
+  "min_cross_section": 30,
+  "n_groups": 5,
+  "min_coverage": 0.95,
+  "min_ic_days": 120,
+  "min_abs_rank_ic": 0.01,
+  "min_abs_rank_icir": 0.05,
+  "min_month_positive": 0.55,
+  "max_constant_day_fraction": 0.1,
+  "corr_sample_max_rows": 100000,
+  "min_corr_pairs": 200,
+  "max_pair_corr": 0.9,
+  "max_factors": 40,
+  "fdr_method": "by",
+  "max_fdr_q": null,
+  "evaluate_test": false
+}

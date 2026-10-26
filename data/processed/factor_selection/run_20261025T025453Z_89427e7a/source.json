@@ -1,0 +1,467 @@
+{
+  "model_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\model_dataset\\run_20261024T125348Z_2adc3b07",
+  "model_metadata_sha256": "06af36ae19d1749b7a3e370edafc73c190f26597450f635b950e011157b15cbe",
+  "model_config_sha256": "60657c0f48f8b59f48bae7489e91b4180ebc3213982d465adb616b6d80c23b2f",
+  "model_config": {
+    "target_horizon": 1,
+    "entry_lag": 1,
+    "target_mode": "return",
+    "direction_threshold": 0.0,
+    "splits": {
+      "train": [
+        "2022-01-01",
+        "2023-12-31"
+      ],
+      "valid": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "test": [
+        "2025-01-01",
+        "2025-12-31"
+      ]
+    },
+    "instruments": null,
+    "max_row_missing": 0.5,
+    "clip_quantiles": [
+      0.01,
+      0.99
+    ],
+    "fit_max_rows": 100000,
+    "output_format": "parquet"
+  },
+  "alpha_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\alpha158\\run_20261024T123322Z_3e71525d",
+  "alpha_metadata_sha256": "a30cb675df46b9424c1089497805ee80f187007a1eed6e5b3068be66d2dc3f8c",
+  "partitions": [
+    {
+      "file": "part-00000.parquet",
+      "bytes": 56154786,
+      "mtime_ns": 1792845215653187500
+    },
+    {
+      "file": "part-00001.parquet",
+      "bytes": 54330797,
+      "mtime_ns": 1792845228327423100
+    },
+    {
+      "file": "part-00002.parquet",
+      "bytes": 55565502,
+      "mtime_ns": 1792845241457183000
+    },
+    {
+      "file": "part-00003.parquet",
+      "bytes": 56980951,
+      "mtime_ns": 1792845254290429900
+    },
+    {
+      "file": "part-00004.parquet",
+      "bytes": 54605578,
+      "mtime_ns": 1792845267358541400
+    },
+    {
+      "file": "part-00005.parquet",
+      "bytes": 48297393,
+      "mtime_ns": 1792845279144072500
+    },
+    {
+      "file": "part-00006.parquet",
+      "bytes": 57998933,
+      "mtime_ns": 1792845292188817500
+    },
+    {
+      "file": "part-00007.parquet",
+      "bytes": 59666819,
+      "mtime_ns": 1792845306514714400
+    },
+    {
+      "file": "part-00008.parquet",
+      "bytes": 57727632,
+      "mtime_ns": 1792845322104512300
+    },
+    {
+      "file": "part-00009.parquet",
+      "bytes": 58465019,
+      "mtime_ns": 1792845338175776800
+    },
+    {
+      "file": "part-00010.parquet",
+      "bytes": 55493347,
+      "mtime_ns": 1792845352758090300
+    },
+    {
+      "file": "part-00011.parquet",
+      "bytes": 58006221,
+      "mtime_ns": 1792845367709696300
+    },
+    {
+      "file": "part-00012.parquet",
+      "bytes": 58256777,
+      "mtime_ns": 1792845381511793300
+    },
+    {
+      "file": "part-00013.parquet",
+      "bytes": 61979726,
+      "mtime_ns": 1792845394954622000
+    },
+    {
+      "file": "part-00014.parquet",
+      "bytes": 64312599,
+      "mtime_ns": 1792845409053290300
+    },
+    {
+      "file": "part-00015.parquet",
+      "bytes": 63432615,
+      "mtime_ns": 1792845423524693600
+    },
+    {
+      "file": "part-00016.parquet",
+      "bytes": 58352863,
+      "mtime_ns": 1792845437275387300
+    },
+    {
+      "file": "part-00017.parquet",
+      "bytes": 58386117,
+      "mtime_ns": 1792845450593032200
+    },
+    {
+      "file": "part-00018.parquet",
+      "bytes": 56666778,
+      "mtime_ns": 1792845464874570000
+    },
+    {
+      "file": "part-00019.parquet",
+      "bytes": 61432807,
+      "mtime_ns": 1792845479142047500
+    },
+    {
+      "file": "part-00020.parquet",
+      "bytes": 63477498,
+      "mtime_ns": 1792845492935911400
+    },
+    {
+      "file": "part-00021.parquet",
+      "bytes": 65102928,
+      "mtime_ns": 1792845507289275400
+    },
+    {
+      "file": "part-00022.parquet",
+      "bytes": 65456770,
+      "mtime_ns": 1792845521426809000
+    },
+    {
+      "file": "part-00023.parquet",
+      "bytes": 65501291,
+      "mtime_ns": 1792845535108125800
+    },
+    {
+      "file": "part-00024.parquet",
+      "bytes": 66006926,
+      "mtime_ns": 1792845548663305800
+    },
+    {
+      "file": "part-00025.parquet",
+      "bytes": 66340401,
+      "mtime_ns": 1792845562478902700
+    },
+    {
+      "file": "part-00026.parquet",
+      "bytes": 62693359,
+      "mtime_ns": 1792845576197739500
+    },
+    {
+      "file": "part-00027.parquet",
+      "bytes": 55445098,
+      "mtime_ns": 1792845590103672100
+    },
+    {
+      "file": "part-00028.parquet",
+      "bytes": 44159627,
+      "mtime_ns": 1792845603057969100
+    },
+    {
+      "file": "part-00029.parquet",
+      "bytes": 26685355,
+      "mtime_ns": 1792845615386196900
+    },
+    {
+      "file": "part-00030.parquet",
+      "bytes": 55890481,
+      "mtime_ns": 1792845629034184500
+    },
+    {
+      "file": "part-00031.parquet",
+      "bytes": 54954011,
+      "mtime_ns": 1792845642812143600
+    },
+    {
+      "file": "part-00032.parquet",
+      "bytes": 56084092,
+      "mtime_ns": 1792845655826939900
+    },
+    {
+      "file": "part-00033.parquet",
+      "bytes": 58036384,
+      "mtime_ns": 1792845668807264300
+    },
+    {
+      "file": "part-00034.parquet",
+      "bytes": 58170871,
+      "mtime_ns": 1792845681710065400
+    },
+    {
+      "file": "part-00035.parquet",
+      "bytes": 56863920,
+      "mtime_ns": 1792845693865416000
+    },
+    {
+      "file": "part-00036.parquet",
+      "bytes": 56807424,
+      "mtime_ns": 1792845706242274800
+    },
+    {
+      "file": "part-00037.parquet",
+      "bytes": 55930098,
+      "mtime_ns": 1792845719097181600
+    },
+    {
+      "file": "part-00038.parquet",
+      "bytes": 55554523,
+      "mtime_ns": 1792845731643504700
+    },
+    {
+      "file": "part-00039.parquet",
+      "bytes": 58909289,
+      "mtime_ns": 1792845744275288300
+    },
+    {
+      "file": "part-00040.parquet",
+      "bytes": 58425394,
+      "mtime_ns": 1792845756993079500
+    },
+    {
+      "file": "part-00041.parquet",
+      "bytes": 55089657,
+      "mtime_ns": 1792845769281352600
+    },
+    {
+      "file": "part-00042.parquet",
+      "bytes": 56144607,
+      "mtime_ns": 1792845782495532000
+    },
+    {
+      "file": "part-00043.parquet",
+      "bytes": 56571930,
+      "mtime_ns": 1792845794831293600
+    },
+    {
+      "file": "part-00044.parquet",
+      "bytes": 63812328,
+      "mtime_ns": 1792845807769448800
+    },
+    {
+      "file": "part-00045.parquet",
+      "bytes": 63601412,
+      "mtime_ns": 1792845820309680000
+    },
+    {
+      "file": "part-00046.parquet",
+      "bytes": 63458056,
+      "mtime_ns": 1792845833369334200
+    },
+    {
+      "file": "part-00047.parquet",
+      "bytes": 66044830,
+      "mtime_ns": 1792845845544394200
+    },
+    {
+      "file": "part-00048.parquet",
+      "bytes": 64686888,
+      "mtime_ns": 1792845858444359500
+    },
+    {
+      "file": "part-00049.parquet",
+      "bytes": 65269006,
+      "mtime_ns": 1792845870411047400
+    },
+    {
+      "file": "part-00050.parquet",
+      "bytes": 62721961,
+      "mtime_ns": 1792845882884423300
+    },
+    {
+      "file": "part-00051.parquet",
+      "bytes": 53770478,
+      "mtime_ns": 1792845895357140100
+    },
+    {
+      "file": "part-00052.parquet",
+      "bytes": 57118898,
+      "mtime_ns": 1792845907643718000
+    },
+    {
+      "file": "part-00053.parquet",
+      "bytes": 19950219,
+      "mtime_ns": 1792845913966130300
+    }
+  ],
+  "features": [
+    "KMID",
+    "KLEN",
+    "KMID2",
+    "KUP",
+    "KUP2",
+    "KLOW",
+    "KLOW2",
+    "KSFT",
+    "KSFT2",
+    "OPEN0",
+    "HIGH0",
+    "LOW0",
+    "VWAP0",
+    "ROC5",
+    "ROC10",
+    "ROC20",
+    "ROC30",
+    "ROC60",
+    "MA5",
+    "MA10",
+    "MA20",
+    "MA30",
+    "MA60",
+    "STD5",
+    "STD10",
+    "STD20",
+    "STD30",
+    "STD60",
+    "BETA5",
+    "BETA10",
+    "BETA20",
+    "BETA30",
+    "BETA60",
+    "RSQR5",
+    "RSQR10",
+    "RSQR20",
+    "RSQR30",
+    "RSQR60",
+    "RESI5",
+    "RESI10",
+    "RESI20",
+    "RESI30",
+    "RESI60",
+    "MAX5",
+    "MAX10",
+    "MAX20",
+    "MAX30",
+    "MAX60",
+    "MIN5",
+    "MIN10",
+    "MIN20",
+    "MIN30",
+    "MIN60",
+    "QTLU5",
+    "QTLU10",
+    "QTLU20",
+    "QTLU30",
+    "QTLU60",
+    "QTLD5",
+    "QTLD10",
+    "QTLD20",
+    "QTLD30",
+    "QTLD60",
+    "RANK5",
+    "RANK10",
+    "RANK20",
+    "RANK30",
+    "RANK60",
+    "RSV5",
+    "RSV10",
+    "RSV20",
+    "RSV30",
+    "RSV60",
+    "IMAX5",
+    "IMAX10",
+    "IMAX20",
+    "IMAX30",
+    "IMAX60",
+    "IMIN5",
+    "IMIN10",
+    "IMIN20",
+    "IMIN30",
+    "IMIN60",
+    "IMXD5",
+    "IMXD10",
+    "IMXD20",
+    "IMXD30",
+    "IMXD60",
+    "CORR5",
+    "CORR10",
+    "CORR20",
+    "CORR30",
+    "CORR60",
+    "CORD5",
+    "CORD10",
+    "CORD20",
+    "CORD30",
+    "CORD60",
+    "CNTP5",
+    "CNTP10",
+    "CNTP20",
+    "CNTP30",
+    "CNTP60",
+    "CNTN5",
+    "CNTN10",
+    "CNTN20",
+    "CNTN30",
+    "CNTN60",
+    "CNTD5",
+    "CNTD10",
+    "CNTD20",
+    "CNTD30",
+    "CNTD60",
+    "SUMP5",
+    "SUMP10",
+    "SUMP20",
+    "SUMP30",
+    "SUMP60",
+    "SUMN5",
+    "SUMN10",
+    "SUMN20",
+    "SUMN30",
+    "SUMN60",
+    "SUMD5",
+    "SUMD10",
+    "SUMD20",
+    "SUMD30",
+    "SUMD60",
+    "VMA5",
+    "VMA10",
+    "VMA20",
+    "VMA30",
+    "VMA60",
+    "VSTD5",
+    "VSTD10",
+    "VSTD20",
+    "VSTD30",
+    "VSTD60",
+    "WVMA5",
+    "WVMA10",
+    "WVMA20",
+    "WVMA30",
+    "WVMA60",
+    "VSUMP5",
+    "VSUMP10",
+    "VSUMP20",
+    "VSUMP30",
+    "VSUMP60",
+    "VSUMN5",
+    "VSUMN10",
+    "VSUMN20",
+    "VSUMN30",
+    "VSUMN60",
+    "VSUMD5",
+    "VSUMD10",
+    "VSUMD20",
+    "VSUMD30",
+    "VSUMD60"
+  ]
+}

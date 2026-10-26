@@ -1,0 +1,35 @@
+{
+  "engine_version": "ashare_daily_event_backtest_v1",
+  "models": [
+    "ols",
+    "lasso",
+    "random_forest",
+    "xgboost",
+    "lightgbm",
+    "mlp"
+  ],
+  "start": "2025-01-02",
+  "end": "2025-12-31",
+  "initial_cash": 1000000.0,
+  "mode": "research",
+  "corporate_action_mode": "price_only",
+  "actions_coverage_verified": false,
+  "commission_rate": 0.0003,
+  "min_commission": 5.0,
+  "slippage_bps": 5.0,
+  "impact_eta": 0.1,
+  "volume_participation": 0.01,
+  "planning_adv_limit": 0.01,
+  "annual_days": 252,
+  "risk_free_annual": 0.0,
+  "progress_every": 20,
+  "zero_cost_test": false,
+  "portfolio": {
+    "policy": "topk_buffer",
+    "top_k": 50,
+    "max_discretionary_replacements": 5,
+    "target_stock_weight": 0.95,
+    "single_name_weight_cap": 0.03,
+    "min_cross_section": 30
+  }
+}

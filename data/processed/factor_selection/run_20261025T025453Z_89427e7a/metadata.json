@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "created_utc": "20261025T025453Z",
+  "selection_split": "train",
+  "validation_used_for_selection": false,
+  "test_used_for_selection": false,
+  "evaluated_splits": [
+    "train",
+    "valid"
+  ],
+  "target_name": "LABEL0",
+  "target_horizon": 1,
+  "model_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\model_dataset\\run_20261024T125348Z_2adc3b07",
+  "selected_count": 40,
+  "source_features": 158,
+  "corr_sample_rows": 100000,
+  "correlation_method": "sampled_train_daily_percentile_rank_pearson",
+  "hac_lags": 5,
+  "icir_annualized": false,
+  "p_value_method": "Bartlett HAC mean SE and asymptotic normal approximation",
+  "pandas": "3.1.0",
+  "numpy": "2.4.6",
+  "output_format": "parquet"
+}

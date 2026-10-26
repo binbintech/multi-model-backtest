@@ -1,0 +1,38 @@
+{
+  "schema": "ashare_daily_event_backtest_v1",
+  "status": "complete",
+  "models": [
+    "ols"
+  ],
+  "result_level": "research_price_return",
+  "config_hash": "3eda81af623c819287c11592db90a56a9797ebfb4cace3e732a620bdeb8c93ec",
+  "source_hash": "c2c120fba74167fcb9334a03692ca3be3cf7cac0b375afeb8be306ff2318852c",
+  "market_hash": "cd3fe201ac8a0b837c3c4fe1e55ff97c83aeb0969c7039f8e087b75baecde654",
+  "signal_run": "E:\\document-prefer\\python for finanace\\multi-model-bactest\\data\\processed\\signals\\run_20261025T142048Z_4769f72d",
+  "corporate_action_mode": "price_only",
+  "includes_supplied_company_events": false,
+  "economic_total_return_independently_validated": false,
+  "end_liquidation": false,
+  "cash_interest": 0.0,
+  "files_sha256": {
+    "benchmark.parquet": "04c1e82f303c09210aa95e7cfde46a3f02a3f502b4ff741f5875257bfc2ae0df",
+    "config.json": "d1eac536c621933d559a8e1671e1c155707eeb1a5df159d223c40d3b1ed7e7eb",
+    "nav_comparison.parquet": "17c4a397d9cc62b698e36f129562d5fb8e7b92eae995e5ad0af29c652e65c4f7",
+    "performance_summary.csv": "ebb82248d475245e0a37db3677a59dc4bfc689b9c084e69da3c54dcf0060c146",
+    "source.json": "97b371e6936c86cca8465c59c3bf3faa84c653508bbd2d5e54e59d817985f13d",
+    "ols\\account.parquet": "e63833d379e35ec26202bce37387389d0977b7c4a7d5307687f1090ef08dd067",
+    "ols\\company_events.parquet": "bbc7d0a480dc8352e660c85b4d0bd6458d8f8af6978390214815ec2ebc704ee9",
+    "ols\\constraint_breaches.parquet": "a1f350d523c39288c74ebb9ac0e1d7f41e3079d2e2b909d74105f640fc346229",
+    "ols\\daily_returns.parquet": "5faa17fef409db063ab63d172dcdf698b425e33e24932ff7ddcdbc1a45d18e12",
+    "ols\\decisions.parquet": "adefb263faf92b0b5c7d9ad14df0665c6ba41c7e6c61716cb8cf8d37becbc7b5",
+    "ols\\fills.parquet": "05ec570e1db53d8a3e11c7652d0963e70440f7cf6d825f649b09bde124374b9f",
+    "ols\\orders.parquet": "fd7a4947dce498648bcf24c3ffd9b542b8c01d6249e70001b1046436c2ea081d",
+    "ols\\pending_dividend_rights.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "ols\\positions.parquet": "78fe5ecec2a6fbd18410c306a3c03ffe81482446497e8e4e3f7a0941c9eddbdd",
+    "ols\\rejections.parquet": "ca3d2b06300b17b48b46e00f172841e2e814511dfc620eeb75ff42e5ad03a488",
+    "ols\\target_positions.parquet": "1b1faa08b13b5d484e3f65b754d0c5864365fbb2426fb23a60e5343299291acf",
+    "ols\\terminal_snapshot.json": "b5ba4b991d19c83b495541bad576422978bed6398cb64b128325a078af78d6f1",
+    "ols\\unmodeled_company_actions.parquet": "0e8a6ae6ac86442fadcfc6a0be0bdb17af51ef47c7e1c75ea17ba6ae1abc245b"
+  },
+  "completed_at": "2026-10-26T03:22:01.874210+00:00"
+}
